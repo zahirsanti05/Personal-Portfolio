@@ -214,8 +214,26 @@ nav .right a:hover {
   }
 
 
-/* */
+/* Skills */
 
+#skills-section {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 10rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    min-height: 20vh;
+}
+
+#skills-section .skills-header{
+    margin-top: 1rem;
+}
+
+#skills-section .skills-icons{
+
+}
 
 
 
