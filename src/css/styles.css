@@ -99,7 +99,7 @@ nav .right a:hover {
 }
 
 #about-section .header {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #5e665e;
     margin-bottom: 0.6rem;
 }
@@ -124,7 +124,7 @@ nav .right a:hover {
 /* Bio */
 #about-section .bio p{
     max-width: 100ch;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #5e665e;
     margin-top: 0.6rem;
     margin-bottom: 0.5rem;
@@ -172,11 +172,13 @@ nav .right a:hover {
     background-color: #bfd6c4;
     min-height: 20vh;
     font-family: 'Quicksand', sans-serif;
+    
 }
 
 #projects-section .projects-header {
-    margin-top: 0;
+    font-size: 1.5rem;
     transform: translateY(-6rem);
+    
 }
 
 #projects-section .project-cards {
@@ -186,10 +188,11 @@ nav .right a:hover {
     gap: 5rem;                     /* space between cards */
     max-width: 1000px;
     margin: 0 auto;
+    transform: translateY(-2rem)
 }
 
 #projects-section .projects {
-    width: 200px;
+    width: 300px;
     background-color: #a9d788;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -205,7 +208,7 @@ nav .right a:hover {
   
 #projects-section .projects img {
     width: 100%;
-    height: 120px;
+    height: 200px;
     object-fit: cover;
 }
   
@@ -229,12 +232,13 @@ nav .right a:hover {
 }
 
 #skills-section .skills-header{
+    font-size: 1.5rem;
     margin-top: 0;
     transform: translateY(-6rem);
 }
 
 #skills-section .skills-icons {
-    font-size: 2.25rem;
+    font-size: 4rem;
     display: flex;
     flex-wrap: wrap;               /* allows wrapping on smaller screens */
     justify-content: center;       /* center the cards horizontally */
