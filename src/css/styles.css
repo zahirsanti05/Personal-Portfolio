@@ -260,7 +260,6 @@ nav .right a:hover {
 
 /* FOOTER */
 footer{
-    
     bottom: 0;
     width: 100%;
     font-family:'Times New Roman', Times, serif;
@@ -268,4 +267,16 @@ footer{
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
+}
+
+footer .right a{
+    color: var(--text-color);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0.625rem;
+}
+
+footer i:hover {
+  color: #80c84d;; /* LinkedIn blue, change as needed */
 }
