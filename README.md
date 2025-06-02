@@ -10,8 +10,8 @@
 ## Getting started🚀
 
 - First, clone this repository and run it locally
-```bash git clone https://github.com/zahirsanti05/Personal-Portfolio.git```
-- Afterward, you want to run ```bash index.html``` on your browser
+```git clone https://github.com/zahirsanti05/Personal-Portfolio.git```
+- Afterward, you want to run ```index.html``` on your browser
 
 ## Acknologement
 
